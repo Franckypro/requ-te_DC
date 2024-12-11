@@ -1,0 +1,15 @@
+<!-- feedback/templates/feedback/accueil.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="{% static 'feedback/style.css' %}">
+</head>
+<body>
+    <h1>Bienvenue sur la page d'accueil</h1>
+    <p>Soumettez vos retours sur la formation :</p>
+    <a href="{% url 'soumettre_retour' %}">Soumettre un retour</a>
+</body>
+</html>

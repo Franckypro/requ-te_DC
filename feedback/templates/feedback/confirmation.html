@@ -1,0 +1,15 @@
+<!-- feedback/templates/feedback/confirmation.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmation</title>
+    <link rel="stylesheet" href="{% static 'feedback/style.css' %}">
+</head>
+<body>
+    <h1>Merci pour votre retour !</h1>
+    <p>Votre retour a été soumis avec succès.</p>
+    <a href="{% url 'accueil' %}">Retour à l'accueil</a>
+</body>
+</html>
